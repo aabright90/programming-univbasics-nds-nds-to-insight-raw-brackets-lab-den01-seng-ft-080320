@@ -16,7 +16,7 @@ def directors_totals(nds)
       total += directors_database[directors_index][:movies][movies_index][:worldwide_gross]
       binding.pry
     end
-    result[]
+    result[directors_database[directors_index][:name]] = total
   end
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #
