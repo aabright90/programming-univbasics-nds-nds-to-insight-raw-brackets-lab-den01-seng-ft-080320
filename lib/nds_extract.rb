@@ -8,8 +8,8 @@ def directors_totals(nds)
   # that you know what you're starting with!
   result = {}
   directors_index = 0
-  movies_index = 0
   while directors_index < nds.length do
+    movies_index = 0
     # total = 0
     while movies_index < directors_database[directors_index][:movies].length do
       if result[directors_database[directors_index][:name]]
