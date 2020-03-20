@@ -6,8 +6,7 @@ def directors_totals(nds)
   gross = directors_database[0][:movies][0][:worldwide_gross]
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
-  result = {
-  }
+  result = {}
   directors_index = 0
   movies_index = 0
   while directors_index < nds.length do
