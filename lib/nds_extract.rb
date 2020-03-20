@@ -2,8 +2,8 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
 
 def directors_totals(nds)
-  directors = directors_database[directors_index][:name]
-  gross = directors_database[0][:movies][0][:worldwide_gross]
+  # directors = directors_database[directors_index][:name]
+  # gross = directors_database[0][:movies][0][:worldwide_gross]
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   result = {}
