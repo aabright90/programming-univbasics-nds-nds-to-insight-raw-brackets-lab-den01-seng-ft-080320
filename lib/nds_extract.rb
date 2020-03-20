@@ -17,9 +17,9 @@ def directors_totals(nds)
       movies_index += 1
     else
       result[directors_database[directors_index][:name]] = directors_database[directors_index][:movies][movies_index][:worldwide_gross]
+      movies_index += 1
     end
     end
-    result[directors_database[directors_index][:name]] = total
     directors_index += 1
   end
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
